@@ -1,0 +1,30 @@
+{
+  "name": "emblemise",
+  "version": "1.0.0",
+  "description": "A logo generation tool",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakebJackson/Emblemise.git"
+  },
+  "keywords": [
+    "Logo",
+    "generator"
+  ],
+  "author": "Jakeb Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakebJackson/Emblemise/issues"
+  },
+  "homepage": "https://github.com/JakebJackson/Emblemise#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.7.0"
+  }
+}
