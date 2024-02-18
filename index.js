@@ -13,6 +13,13 @@ inquirer.prompt([
         type: 'input',
         name: 'text',
         message: 'Please input the text for your logo: (Up to 3 characters)',
+        validate: function(input) {
+            if (input.length <= 3) {
+                return true;
+            } else {
+                return 'The text can be no longer than 3 characters.';
+            }
+        }
     },
 
     {
