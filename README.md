@@ -1,5 +1,5 @@
 # Emblemise
-A weather dashboard application.
+A logo generation application.
 
 ## About this repository
 This repository aims to allow a user to generate a custom logo based on input acquired via console with inquirer.
